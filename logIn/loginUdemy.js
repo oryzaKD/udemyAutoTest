@@ -5,7 +5,7 @@ import chrome from 'selenium-webdriver/chrome.js';
 import fetch from 'node-fetch';
 import dotenv from 'dotenv';
 dotenv.config();
-import environment from '../URL_Website';
+import { environment } from '../URL_Website.js'
 
 // Email configuration
 const emailConfig = {

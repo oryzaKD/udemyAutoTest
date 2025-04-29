@@ -3,7 +3,7 @@ import { Builder, By, until } from 'selenium-webdriver';
 import chrome from 'selenium-webdriver/chrome.js';
 import fetch from 'node-fetch';
 import dotenv from 'dotenv';
-import environment from '../URL_Website.js';
+import { environment } from '../URL_Website.js';
 dotenv.config();
 import { writeLastValue, readLastValue } from '../fileUtils.js';
 
